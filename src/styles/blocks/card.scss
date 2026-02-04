@@ -36,13 +36,13 @@
 
   &__name {
     font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: $font-size-lg;
+    line-height: $font-line-height-lg;
     transition: all 300ms ease;
   }
 
   &:hover .card__name {
-    color: #34568b;
+    color: $hover-color;
   }
 
   &__code {
@@ -73,15 +73,15 @@
 
     .price__label {
       font-weight: $font-weight;
-      font-size: 12px;
-      line-height: 18px;
+      font-size: $font-size-lg;
+      line-height: $font-line-height-lg;
       color: $secondary;
     }
 
     .price__value {
       font-weight: 700;
       font-size: 16px;
-      line-height: 18px;
+      line-height: $font-line-height-lg;
       text-align: right;
     }
   }
